@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+video {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    object-fit: cover;
+
+}
+.a1{
+  background-color: #FFC0CB;
+}
+header{
+  position: absolute;
+  top: 0;
+  Left: 0;
+  width: 80%;
+  padding: 30px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .llogo{
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 100;
+  text-transform: uppercase;
+  left: 50px;
+  letter-spacing: 2px;
+}
+header .logo
+{
+  color: #fff;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 10000;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+header ul
+{
+display: flex;
+margin-left: 0px;
+justify-content: center;
+align-items: center;
+}
+header ul li
+{
+  list-style: none;
+  margin-left: 20px;
+}
+.d-flex {
+  margin-left: 150px;
+}
+.sec{
+  position: relative;
+  padding: 100px;
+  background: #7BA7AB;
+  top: 800px;
+  height:100vh;
+  width:100%;
+}
+.sec h1{
+  float: none;
+  font.size: 3.5em;
+  color: white;
+  margin-top:-30px;
+  text-align: center;
+}
+.sec p{
+  float: left;
+  font.size: 3.5em;
+  margin-top: 70px;
+  color: white;
+}
+.inst {
+  position: absolute;
+  margin-left: 1200px;
+  margin-top: 400px;
+}
+.yt {
+  position: absolute;
+  margin-left: 1291px;
+  margin-top: 400px;
+}
+.fc {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 1109px;
+}
+.tw {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 1018px;
+}
+.g2 {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 927px;
+}
+.mail {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 745px;
+}
+.vk {
+  position: absolute;
+  margin-top: 400px;
+  margin-left: 836px;
+}
+.GPS{
+  position: relative;
+  padding: 100px;
+  background: PaleVioletRed;
+  top: 800px;
+  height:100vh;
+  width:106.6%;
+  right: 100px;
+}
+.GPS h1{
+  font.size: 3.5em;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+.GPS p{
+  float: left;
+  position: absolute;
+  font.size: 80px;
+  margin-top: 70px;
+  right: 500px;
+  bottom: 500px;
+  color: white;
+}
+.gps1 {
+  font-size: 2em;
+  position: absolute;
+  color: white;
+  left: 900px;
+  float: right;
+  top: 200px;
+}
+form {
+  position: relative;
+  width: 300px;
+  margin: 0 auto;
+}
+input {
+  width: 100%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: white;
+  color: #9E9C9C;
+}
+button {
+  position: absolute;
+  top: 0;
+  right: 0px;
+  width: 42px;
+  height: 42px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+button:before {
+
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: white;
+}
+.Gur{
+  margin-left: 1150px;
+  top:23px;
+}
+.two{
+text-align: center;
+font-size:200px;
+letter-spacing: 4px;
+color:#fff;
+margin-top: 200px;
+text-shadow: -1px -1px #EE8A08,
+-2px -2px #EE8A08,
+-1px 1px #EE8A08,
+-2px 2px #EE8A08,
+1px 1px #EE8A08,
+2px 2px #EE8A08,
+1px -1px #EE8A08,
+2px -2px #EE8A08,
+}
+.two h1 {
+  font-size: 100px;
+}
+#two1 {
+  position: absolute;
+}
+.music{
+margin-top: 100px;
+margin-right: 100px;
+width: 10%;
+}
+.Contacts{
+  position: relative;
+  padding: 100px;
+  background: #7BA7AB;
+  top: 800px;
+  height:100vh;
+  width:106.6%;
+  right: 100px;
+}
+
+
+
+.Contacts h1{
+  font.size: 3.5em;
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+.rightpic{
+
+    float: right;
+    width: 600px;
+    height: 500px;
+    margin-left: 70px;
+}
+.rightpic1{
+float: left;
+position: absolute;
+margin-top: 40px;
+    margin-left: 80px;
+}
+form{
+  top: 100px;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  display: none;
+  background-color: #dcdcdc;
+}
+
+.cards{
+  margin-left: 12%;
+  display: flex;
+}
+
+.card{
+  width: 300px;
+  margin-right: 150px;
+}
